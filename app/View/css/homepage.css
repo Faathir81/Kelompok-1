@@ -1,0 +1,41 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1593642634443-44adaa06623a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'); /* Contoh link gambar dari Unsplash */
+    background-size: cover; /* Mengatur agar gambar memenuhi layar */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    color: azure;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+    .container {
+        text-align: center;
+    }
+
+    .btn {
+        background-color: #333;
+        color: white;
+        padding: 12px 24px;
+        margin: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: wheat;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    

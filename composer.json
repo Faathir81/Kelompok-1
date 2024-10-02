@@ -1,0 +1,19 @@
+{
+  "name": "pzn/belajar-mvc",
+  "description": "belajar dasar",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Pzn\\BelajarMVC\\": "app"
+    }
+  },
+  "authors": [
+    {
+      "name": "husein zidan",
+      "email": "zidan.idros14@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8"
+  }
+}
