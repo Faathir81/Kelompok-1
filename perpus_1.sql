@@ -31,31 +31,7 @@ CREATE TABLE `users` (
   `role` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-ALTER TABLE `books`
-  ADD PRIMARY KEY (`book_id`),
-  ADD KEY `fk_books_users` (`pemilik`);
 
-
-ALTER TABLE `reports`
-  ADD PRIMARY KEY (`report_id`);
-
-
-ALTER TABLE `transactions`
-  ADD PRIMARY KEY (`id`);
-
-ALTER TABLE `users`
-  ADD PRIMARY KEY (`user_id`);
-
-ALTER TABLE `books`
-  MODIFY `book_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
-  
-ALTER TABLE `reports`
-  MODIFY `report_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-
-ALTER TABLE `transactions`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
-  
-ALTER TABLE `users`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
   
 ALTER TABLE `books`
